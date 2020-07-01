@@ -73,19 +73,19 @@ const en = {
           title: "Digital account",
           text:
             "Create and manage digital accounts, with the Azpay platform, you are able to offer digital accounts allowing your customers to carry out financial transactions without depending on a bank.",
-          button: "Understand how it works >>>",
+          button: "How it works >>>",
         },
         recorrencia: {
           title: "Recurrence",
           text:
             "Offer recurring billing services. Through the AZPAY APIs you can create a subscription management solution allowing the management of customers, products, payment methods and frequency.",
-          button: "Understand how it works >>>",
+          button: "How it works >>>",
         },
         split: {
           title: "Split Payment",
           text:
-            "With Payment Split, marketplaces choose how to split their payments, simplifying their operation in the physical and online world.‍",
-          button: "Understand how it works >>>",
+            "With Split Payment, marketplaces choose how to split their payments, simplifying their operation in the physical and online world.‍",
+          button: "How it works >>>",
         },
         boleto: "Registered Boleto",
         gateway: "Payment gateway",
