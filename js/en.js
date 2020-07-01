@@ -4,7 +4,7 @@ const en = {
       ecommerce: "E-commerce",
       precos: "Pricing",
       produtos: "Products",
-      splitPagamento: "Payment Split",
+      splitPagamento: "Split Payment",
       boletos: "Boletos",
       maquininhas: "Card Machine",
       devs: "Developers",
@@ -82,7 +82,7 @@ const en = {
           button: "Understand how it works >>>",
         },
         split: {
-          title: "Payment Split",
+          title: "Split Payment",
           text:
             "With Payment Split, marketplaces choose how to split their payments, simplifying their operation in the physical and online world.‍",
           button: "Understand how it works >>>",
@@ -125,7 +125,7 @@ const en = {
         checkout: "Transparent checkout",
         api: "Payments API",
         maquininhas: "Card Machine / POS",
-        split: "Payment Split",
+        split: "Split Payment",
         integracoes: "Integrations",
         plugins: "Plugins",
         gateway: "Payment Gateway",
