@@ -58,8 +58,7 @@ const en = {
         subtitle: "Card machines for your pocket",
         text:
           "We have several models and prices that fit in your pocket. Offer payments with all flags and receive up to one business day in a simple and quick way even if you are out of bank or restricted.",
-        button: "REQUEST YOUR CARD MACHINE
-",
+        button: "REQUEST YOUR CARD MACHINE",
       },
       cartoes: {
         title:
