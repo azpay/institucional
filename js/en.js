@@ -347,7 +347,7 @@ const en = {
             "With the payment split, the storekeeper also has support for identifying payments received and orders processed, in progress or canceled.",
         },
         divisaoValores:
-          "“This division of values ​​is done automatically, without manual interventions, increasing the scalability of the business (technology replaces human labor to make transfers), in addition to facilitating its financial management and helping tenants to manage the day-to-day business. "",
+          "This division of values is done automatically, without manual interventions, increasing the scalability of the business (technology replaces human labor to make transfers), in addition to facilitating its financial management and helping tenants to manage the day-to-day business.",
       },
     },
     boletos: {
