@@ -16,7 +16,7 @@ const en = {
     comunicado: {
       comunicadoImportante: "Important report:",
       comunicado:
-        "During the holiday season, only our support and service team will be available for emergency cases. Happy holidays and happy 2021!",
+        "Covid-19: We are operating normally, all of our services are operational, our meetings are all virtual, preserving our employees and customers as well as respecting government regulations.",
     },
 
     home: {
