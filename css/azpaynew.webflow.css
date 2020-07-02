@@ -2906,6 +2906,7 @@ h4 {
   color: #444;
   font-size: 13px;
   line-height: 1.2em;
+  text-align: center;
 }
 
 .button-3 {
@@ -3358,6 +3359,8 @@ h4 {
 
 .heading-15 {
   color: #222;
+  font-size: 2.3em;
+  line-height: 2.2em;
 }
 
 .heading-16 {
@@ -3704,8 +3707,10 @@ h4 {
 
 .text-solucoes {
   margin-top: 53px;
+  direction: ltr;
   color: #444;
   font-size: 15px;
+  text-align: left;
 }
 
 .text-solucoes.text-solucoes-bottom {
@@ -3758,6 +3763,7 @@ h4 {
   margin-bottom: 30px;
   color: #333;
   font-size: 2.2em;
+  line-height: 2.4em;
   text-align: center;
 }
 
@@ -4138,6 +4144,10 @@ h4 {
   text-align: center;
 }
 
+.paragraph-16 {
+  line-height: 1.4em;
+}
+
 .image-7 {
   height: 250px;
   -o-object-fit: cover;
@@ -4487,6 +4497,18 @@ h4 {
 
 .heading-38 {
   font-size: 1.1em;
+}
+
+.paragraph-18 {
+  line-height: 1.3em;
+}
+
+.italic-text {
+  position: static;
+  direction: ltr;
+  font-size: 11px;
+  line-height: 1.6em;
+  text-transform: capitalize;
 }
 
 @media screen and (max-width: 991px) {
