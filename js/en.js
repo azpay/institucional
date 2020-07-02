@@ -83,7 +83,7 @@ const en = {
           button: "How it works >>>",
         },
         recorrencia: {
-          title: "Recurrence",
+          title: "Recurring",
           text:
             "Offer recurring billing services. Through the AZPAY APIs you can create a subscription management solution allowing the management of customers, products, payment methods and frequency.",
           button: "How it works >>>",
