@@ -61,7 +61,7 @@ const en = {
         recursos: "SEE OTHER RESOURCES",
       },
       maquininhas: {
-        title: "Face-to-face sales",
+        title: "Point of sales",
         subtitle: "Card machines for your pocket",
         text:
           "We have several models and prices that fit in your pocket. Offer payments with all flags and receive up to one business day in a simple and quick way even if you are out of bank or restricted.",
@@ -222,7 +222,7 @@ const en = {
         title:
           "What is the fee and time for cash advance for credit cards?",
         text:
-          "Credit card sales can advance the installments at a rate of 1.9%. Face-to-face sales have this feature enabled immediately, for online sales you need an assessment from our risk team for clearance.",
+          "Credit card sales can advance the installments at a rate of 1.9%. Point-of-sales have this feature enabled immediately, for online sales you need an assessment from our risk team for clearance.",
       },
     },
     produtos: {
@@ -382,7 +382,7 @@ const en = {
         text1:
           "With it you join all payments in one panel and manage the financial flow between everyone involved in your payment chain.",
         text2:
-          "It is ideal for marketplaces with multiple vendors, working from business rules in our APIs and has a standardized implementation for transactions with Digital Payments, Face-to-face and Boleto.",
+          "It is ideal for marketplaces with multiple vendors, working from business rules in our APIs and has a standardized implementation for transactions with Digital Payments, POS and Bank Slip.",
         eficiencia: {
           title: "1. Tax efficiency",
           text:
