@@ -1,6 +1,7 @@
 const en = {
   translation: {
     header: {
+      empresa: "Company",
       ecommerce: "E-commerce",
       precos: "Pricing",
       produtos: "Products",
