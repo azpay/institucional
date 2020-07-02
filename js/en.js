@@ -69,7 +69,7 @@ const en = {
       },
       cartoes: {
         title:
-          "Prepaid card with balance of your online and face-to-face sales",
+          "Prepaid card with balance of your online and POS - Point of sale",
         text:
           "All sales on the internet or card machine are credited to your AZPAY prepaid card. It is a simple and effective way for you who need agility in the cash flow of your business.",
         button: "LEARN MORE",
@@ -209,7 +209,7 @@ const en = {
       },
       perguntasFrequentes: "Common questions",
       asTaxas: {
-        title: "Are fees for online and face-to-face?",
+        title: "Are fees for online and POS - Point-of-Sale?",
         text:
           "Yes, the rates once agreed are maintained for both scenarios. This is a differential in the market, in general you find rates for different scenarios.",
       },
