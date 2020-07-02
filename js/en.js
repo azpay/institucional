@@ -37,18 +37,18 @@ const en = {
       pessoas: {
         title: "Over 2 million people have already paid using AZPAY",
         text:
-          "Our duty is to accept different means of payment from different acquirers without pain, in a safe, simple and straight way.",
-        sla: "Our SLA in almost 1 decade remained at 99.999% monthly",
-        transacoes: "Transactions made",
-        processados: "Reais processed ",
-        cartoes: "Credit Card",
+          "Our duty is to accept different payment methods from different acquirers without pain, in a safe, simple and straight way.",
+        sla: "Our SLA in almost 1 decade remains at 99.999% monthly",
+        transacoes: "Transactions payment",
+        processados: "Amount processed ",
+        cartoes: "Credit/Debit Cards",
         desde: "since 2013",
       },
       vendasInternet: {
-        title: "Sell ​​on the internet the way you want:",
+        title: "Sell on the internet the way you want:",
         checkout: "Transparent checkout",
         checkoutText:
-          "Increase sales in your ecommerce, marketplace or online store. Charge and receive payments by boleto and credit card in a single tool. Eliminate payment redirects to external sites. Increase your conversion rate today!",
+          "Increase sales in your ecommerce, marketplace or online store. Charge and receive payments by bank slip and credit card in a single tool. Eliminate payment redirects to external sites. Increase your conversion rate today!",
         checkoutButton: "TEST NOW",
         api: "Payments API",
         apiText:
@@ -71,11 +71,11 @@ const en = {
         title:
           "Prepaid card with balance of your online and POS - Point of sale",
         text:
-          "All sales on the internet or card machine are credited to your AZPAY prepaid card. It is a simple and effective way for you who need agility in the cash flow of your business.",
+          "All sales on the internet or card machine are credited to your AZPAY prepaid card (optional process). It is a simple and effective way for you who need agility in the cash flow of your business.",
         button: "LEARN MORE",
       },
       produtosPensados: {
-        title: "Products designed for your business!",
+        title: "Our Products are designed for your business!",
         contaDigital: {
           title: "Digital account",
           text:
@@ -106,11 +106,11 @@ const en = {
         vejaLista: "See the complete list",
       },
       clientes: {
-        title: "They believe in us, so should you",
+        title: "They believe in us, so you can too",
       },
       helpDesk: {
         text:
-          "If you want to know more about AZPAY products or services, we are here with the answers. Talk to our team between 9am and 6pm Monday to Friday.",
+          "If you want to know more about AZPAY products or services, we are here with the answers. Talk to our team between 9am and 6pm Monday to Friday. (BRT)",
         chat: "Online chat",
         helpDesk: "Or via Help-Desk",
       },
@@ -430,7 +430,7 @@ const en = {
       prazo: {
         title: "Deadline for receipt",
         text:
-          "Boletos have a standard receipt plan in D + 0. Balance is available immediately after the reconciliation process",
+          "Boletos have a standard receipt plan in D+0. Balance is available immediately after the reconciliation process",
       },
       compensacao: {
         title: "Instant compensation",
@@ -458,7 +458,7 @@ const en = {
         garantiaText:
           "When a cancellation or forced refund occurs by the issuing bank, all the sellers involved have their balance discounted from the amounts received in each Split",
       },
-      faixaOnline: "Online + Physical + Boleto = One thing",
+      faixaOnline: "Online + Physical + bank slip = all-in-one",
       texts920:
         "The S920 is a compact mobile terminal that has a full range of certifications from the payment industry. It is manufactured according to the world's highest technology standards. Lightweight and designed for high transaction volume applications, it offers portability and ease for commercial establishments. It features a high resolution color touch screen, high speed thermal printer, elegant design, long battery life, high technology processor and large memory capacity. Has multiple connectivity options without, including 3G (WCDMA), GPRS, Wi-FI and Bluetooth, complemented by a highly secure open platform, which facilitates the development of customized applications and software.",
       textd150:
@@ -483,7 +483,7 @@ const en = {
         "Check our FAQ, read the documentation, chat with our team. We are here to make you and your business thrive.",
       chat: {
         title: "Chat",
-        subtitle: "Talk to us now, we're here from 8am to 6pm on weekdays.",
+        subtitle: "Talk to us now, we're here from 8am to 6pm (BRT) on weekdays. ",
       },
       ticket: {
         title: "Open a ticket",
