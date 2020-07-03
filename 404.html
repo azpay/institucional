@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Fri Jul 03 2020 05:56:47 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Fri Jul 03 2020 20:31:10 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="5ea199b4f3980b31c27a11df" data-wf-site="5ea199b4f3980b7c657a11da" lang="pt-br">
 <head>
   <meta charset="utf-8">
@@ -153,6 +153,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <script src="https://azpay.com.br/js/loc-i18next.min.js"></script>
   <script src="https://cdn.statically.io/gh/azpay/institucional/193fe827/js/en.js"></script>
   <script>
+if (location.protocol !== 'https:') {
+      location.replace('https:${location.href.substring(location.protocol.length)}');
+}
 window.onload = function() {
   var anchors = document.querySelectorAll('[whenClicked]');
   for(var i = 0; i < anchors.length; i++) {
