@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1.0,user-scalable=no">
+	<title>AZPay - Smart Payment Solutions</title>
+	<meta name="description" content="Centralize and monitor all your payment methods in a single place. Use intelligence in every transaction to Recover Sales, Financial Conciliation, Cost Routing, Transaction Retention, Payment Rules, Behavior and Consumption Analysis.">
+	<meta name="tags" content="smart, payment, solution, azpay, gateway, credit card, ">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="apple-touch-icon" sizes="57x57" href="img/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="img/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="img/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="img/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="img/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="img/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="img/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+	<link rel="manifest" href="img/manifest.json">
+	<meta name="msapplication-TileColor" content="#FF173D">
+	<meta name="msapplication-TileImage" content="img/ms-icon-144x144.png">
+	<meta name="theme-color" content="#FF173D">
+	<meta name="apple-mobile-web-app-status-bar-style" content="#FF173D">
+	<meta property="og:url" content="http://azpay.com.br/frank-macnamara/" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="AZPay - Smart Payment Solutions" />
+	<meta property="og:description" content="Centralize and monitor all your payment methods in a single place. Use intelligence in every transaction to Recover Sales, Financial Conciliation, Cost Routing, Transaction Retention, Payment Rules, Behavior and Consumption Analysis." />
+	<meta property="og:image" content="img/og_facebook.png" />
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:site" content="@azpay_payments" />
+	<meta name="twitter:creator" content="@azpay_payments" />
+	<meta name="twitter:title" content="AZPay - Smart Payment Solutions" />
+	<meta name="twitter:image" content="img/og_twitter.png" />
+	<meta name="twitter:url" content="https://azpay.com.br/frank-macnamara/" />
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:description" content="Centralize and monitor all your payment methods in a single place. Use intelligence in every transaction to Recover Sales, Financial Conciliation, Cost Routing, Transaction Retention, Payment Rules, Behavior and Consumption Analysis." />
+	<link rel="stylesheet" href="normalize.min.css" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css" crossorigin="anonymous">
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-60032939-1"></script>
+	<script>window.dataLayer=window.dataLayer || []; function gtag(){dataLayer.push(arguments);}gtag('js', new Date()); gtag('config', 'UA-60032939-1'); </script>
+	<script>(function(h,o,t,j,a,r){h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)}; h._hjSettings={hjid:1004353,hjsv:6}; a=o.getElementsByTagName('head')[0]; r=o.createElement('script');r.async=1; r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv; a.appendChild(r);})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv='); </script>
+
+	
+</head>
+
+<body class="international">
+	<main>
+		<section id="header" class="header">
+			<div class="header-color-bar"></div>
+			<div class="grid">
+				<a class="logo-area" href="./">
+					<img class="logo-desktop" src="img/logo.svg" alt="AZPay Logo">
+					<img class="logo-mobile" src="img/logo-vertical.svg" alt="AZPay Logo">
+				</a>
+				<div class="header__menu dont_show_on_mobile">
+					<a data-i18n="header.blog" href="https://www.azpay.com.br/blog/" target="_blank">Blog</a>					
+					<a data-i18n="header.doc" href="https://doc.azpay.com.br/" target="_blank">Documentação</a>
+					<a data-i18n="header.support" href="https://azpay.freshdesk.com/support/tickets/new/" target="_blank">Suporte</a>
+					<a data-i18n="header.status" href="https://status.azpay.com.br/" target="_blank">Status da API</a>
+					<a data-i18n="header.hub" href="http://painel.azpay.com.br" target="_blank">Entrar no Painel</a>
+				</div>
+				<div class="header__languages">
+					<div id="hl__container" class="hl__container">
+						<div id="current__language"></div>
+						<div class="chevron"><img src="img/icon/chevron-down.svg" alt="chevron-down"></div>
+					</div>
+					<div id="hl__options" class="hl__options">
+						<div class="hl__option" lang="pt" onclick="handleURLChange('pt')">
+							<p><img src="img/flag-pt.png" alt="Brazil flag" />Português</p>
+						</div>
+						<div class="hl__option" lang="en" onclick="handleURLChange('en')">
+							<p><img src="img/flag-en.png" alt="US flag" />English</p>
+						</div>
+						<div class="hl__option" lang="es" onclick="handleURLChange('es')">
+							<p><img src="img/flag-es.png" alt="Spain flag" />Español</p>
+						</div>
+						<div class="hl__option" lang="ch" onclick="handleURLChange('ch')">
+							<p><img src="img/flag-ch.png" alt="Chinese flag" />中文</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="hero"><img class="img-left floating no_userselect" src="img/hero-img3.png" alt="left hero image" /><img
+			 class="img-right floating floating-delay no_userselect" src="img/hero-img.png" alt="right hero image" />
+			<div class="grid">
+				<form id="signup" onsubmit="return false;">
+					<h1><span data-i18n="i_want">I want</span><br /><span id="typed" class="bold typed"></span></h1>
+					<div class="form-content form-inline"><input type="email" id="email-field" data-i18n="[placeholder]email.placeholder" placeholder="Your e-mail to sign up" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required><button type="button" id="button-addon2">
+							<p data-i18n="email.send_button">GET INVITE</p><img src="img/icon/arrow-right.svg" alt="arrow-right">
+						</button>
+						<div class="form__success">
+							<div><img src="img/icon/check.svg" alt="check icon">
+								<p> <span id="counter-span"></span> <span id="counter-text"></span></p>
+							</div>
+						</div>
+						<div class="checkbox__container form-check"><input type="checkbox" id="checkbox" value="Aceite" checked /><label
+							 class="no_userselect" for="checkbox" data-i18n="send_me_updates">Send me updates sometimes, please.</label></div>
+					</div>
+				</form>
+			</div>
+			<div id="countdown" class="countdown">
+				<p data-i18n="launch_in">We launch in</p>
+				<div id="count__days"></div>
+			</div>
+		</section>
+		<section id="cost" class="padding_small">
+			<div class="grid">
+				<div class="row features__section no_padding">
+					<h2 class="light" data-i18n="total_integration">Fully integrated</h2>
+					<h3 class="clearTop" data-i18n="all_controll_in_single_place">All control in a one place</h3><img class="features__image"
+					 alt="AZPay integrations image" src="img/logos-ball.png" />
+					<div class="row no_padding_mobile">
+						<div class="integration__features">
+							<div class="bullet"><img src="img/bullet_1.svg" alt="bullet">
+								<p class="bullet__title" data-i18n="create_new_payment_rules">Bullet 1s</p>
+							</div>
+							<div class="bullet"><img src="img/bullet_2.svg" alt="bullet">
+								<p class="bullet__title" data-i18n="automate_tax_manage">Bullet 2</p>
+							</div>
+							<div class="bullet"><img src="img/bullet_3.svg" alt="bullet">
+								<p class="bullet__title" data-i18n="access_from_anywhere">Bullet 3</p>
+							</div>
+						</div>
+						<div class="integration__features">
+							<div class="bullet"><img src="img/bullet_4.svg" alt="bullet">
+								<p class="bullet__title" data-i18n="all_payment_methods">Bullet 4</p>
+							</div>
+							<div class="bullet"><img src="img/bullet_5.svg" alt="bullet">
+								<p class="bullet__title" data-i18n="data_driven_decisions">Bullet 5</p>
+							</div>
+							<div class="bullet"><img src="img/bullet_6.svg" alt="bullet">
+								<p class="bullet__title" data-i18n="discovery_consumer_standards">Bullet 6</p>
+							</div>
+						</div>
+					</div>
+				</div>
+		</section>
+		<section id="who" class="padding_small">
+			<div class="grid">
+				<h3 data-i18n="who_already_knows">Who already knows</h3>
+				<div class="row logos">
+					<div class="knows_logos"><img src="img/logos/rentcars.png" alt="RentCars logo" /></div>
+					<div class="knows_logos"><img src="img/logos/page.png" alt="Galeria Pagé logo" /></div>
+					<div class="knows_logos"><img src="img/logos/wizard.png" alt="Wizard logo" /></div>
+					<div class="knows_logos"><img src="img/logos/cam.png" alt="Clube Atlético Mineiro logo" /></div>
+				</div>
+			</div>
+		</section>
+		<section id="more_than_gateway" class="padding_small">
+			<div class="grid">
+				<h2 class="light" data-i18n="features.title">Much more than a gateway</h2>
+				<h3 class="clearTop" data-i18n="features.subtitle">We offer help to understand your customers</h3>
+			</div>
+			<div class="row more__container padding_small">
+				<div class="more__preview">
+					<div class="more__macbook"><img src="img/macbook.png" alt="Macbook vector"></div>
+					<figure class="more__preview__figure"><img id="c__1" src="img/content_roteamento.png" alt="Routing Cost preview"><img
+						 id="c__2" src="img/content_regras.png" alt="Payment Ruler preview"><img id="c__3" src="img/content_recuperacao.png"
+						 alt="Sales Recovery preview"><img id="c__4" src="img/content_whitelabel.png" alt="Whitelabel preview"></figure>
+				</div>
+				<div class="grid more__bulletgrid">
+					<div class="row more__bulletpoints">
+						<div class="active" id="b__1"><img src="img/bullet_1.svg">
+							<p data-i18n="features.cost_routing">Roteamento de custo</p>
+						</div>
+						<div id="b__2"><img src="img/bullet_2.svg">
+							<p data-i18n="features.payment_rules">Payment rules</p>
+						</div>
+						<div id="b__3"><img src="img/bullet_3.svg">
+							<p data-i18n="features.sells_recovery">Sales recovery</p>
+						</div>
+						<div id="b__4"><img src="img/bullet_4.svg">
+							<p data-i18n="features.customize_whitelabel">Custom whitelabel</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="platforms" class="padding_small">
+			<div class="grid">
+				<h3 data-i18n="integration.integration_with">Integration with major platforms</h3>
+				<div class="row logos">
+					<div class="knows_logos"><img src="img/logos/magento.png" alt="Magento logo" /></div>
+					<div class="knows_logos"><img src="img/logos/vtex.png" alt="VTex logo" /></div>
+					<div class="knows_logos"><img src="img/logos/prestashop.png" alt="PrestaShop logo" /></div>
+					<div class="knows_logos"><img src="img/logos/opencart.png" alt="OpenCart logo" /></div>
+					<div class="knows_logos"><img src="img/logos/woocommerce.png" alt="WooCommerce logo" /></div>
+					<div class="knows_logos"><img src="img/logos/shopify.png" alt="Shopify logo" /></div>
+				</div>
+			</div>
+		</section>
+		<section id="contact" class="padding_small">
+			<div class="grid">
+				<h2 data-i18n="contact.title" class="light">Contact us</h2>
+				<h3 data-i18n="contact.subtitle" class="clearTop">Faça parte dessa nova forma de lidar com pagamentos.</h3>
+				<form id="contact" onsubmit="return false">
+					<input type="text" id="contact_name" data-i18n="[placeholder]contact.name_placeholder" placeholder="">
+					<input type="email" id="contact_email" data-i18n="[placeholder]contact.email_placeholder" placeholder="" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
+					<input type="text" id="contact_phone" data-i18n="[placeholder]contact.phone_placeholder" placeholder="" required>
+					<input type="text" id="contact_extension" data-i18n="[placeholder]contact.extension_placeholder" placeholder="">
+					<textarea id="contact_message" data-i18n="[placeholder]contact.message_placeholder" placeholder=""></textarea>
+					<button type="button" id="contactSubmit">
+						<div class="contact_before">
+							<p data-i18n="contact.send">Enviar</p>
+							<img src="img/icon/arrow-right-white.svg" alt="arrow-right">
+						</div>
+						<div class="contact_success">
+							<img src="img/icon/check-white.svg" alt="check icon"><p data-i18n="contact.success">Sucesso</p>
+						</div>
+					</button>
+				</form>
+			</div>
+		</section>
+		<footer class="padding_small text-center">
+			<div class="footer__container"><a href="https://twitter.com/azpay_gateway"><img src="img/twitter.png" alt="Twitter logo" /></a><a
+				 href="https://web.facebook.com/azpay.payment/?_rdc=1&_rdr"><img src="img/facebook.png" alt="Facebook logo" /></a><a
+				 href="https://www.instagram.com/azpay_payments/"><img src="img/instagram.png" alt="Instagram logo" /></a><a href="https://www.linkedin.com/company/azpay/"><img
+					 src="img/linkedin.png" alt="Linkedin logo" /></a></div>
+			<h6 data-i18n="footer.copyright">AZPay 2018</h6>
+		</footer>
+	</main>
+
+	<!-- FreshChat Integration -->
+	<!-- FreshChat Import -->
+	<script src="https://wchat.freshchat.com/js/widget.js"></script>
+	<script>
+		window.fcWidget.init({
+			token: "7091a5fc-d5ed-4eea-bab6-93d04fd28b27",
+			host: "https://wchat.freshchat.com"
+		});
+	</script>
+
+</body>
+<script src="js/typed.js"></script>
+<script src="js/i18next.js"></script>
+<script src="js/loc-i18next.min.js"></script>
+<script src="js/en.js"></script>
+<script src="js/pt.js"></script>
+<script src="js/es.js"></script>
+<script src="js/ch.js"></script>
+<script src="js/translate.js"></script>
+<script src="js/jquery.js" crossorigin="anonymous"></script>
+<script src="js/fetch.js"></script>
+<script src="js/aidax.js"></script>
+<script src="js/input.js"></script>
+<script src="js/form.js"></script>
+<script src="js/index.js"></script>
+<script>// Set the date we're counting down to
+        var countDownDate = new Date("Feb 1, 2019 12:00:00").getTime();
+
+        // Update the count down every 1 second
+        var x = setInterval(function() {
+
+            // Get todays date and time
+            var now = new Date().getTime();
+            
+            // Find the distance between now and the count down date
+            var distance = countDownDate - now;
+            
+            // Time calculations for days, hours, minutes and seconds
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+            
+            const dateCounterText = `<div class="ct__container"><span class="ct__number">${days}</span><span class="ct__label">${i18next.t('days')}</span></div>  <div class="ct__container"><span class="ct__number">${hours}</span> <span class="ct__label">${i18next.t('hours')}</span></div>  <div class="ct__container"><span class="ct__number">${minutes}</span> <span class="ct__label">${i18next.t('minutes')}</span></div>   <div class="ct__container"><span class="ct__number">${seconds}</span><span class="ct__label">${i18next.t('seconds')}</span></div> `;
+
+            // Output the result in an element with id="demo"
+            document.getElementById("count__days").innerHTML = dateCounterText;
+            
+            // document.getElementById("demo2").innerHTML = dateCounterText;
+
+            // If the count down is over, write some text 
+            if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("count__days").innerHTML = "EXPIRED";
+            // document.getElementById("demo2").innerHTML = "EXPIRED";
+            }
+        }, 1000);
+
+        // $('.carousel').carousel({
+        // pause:"hover"
+				// });
+
+				$(document).ready(function(){
+					$(window).on("scroll",function() {
+					
+					// Add active to header
+					if($(this).scrollTop() > 100) 
+						$("#header").addClass("active")
+					else 
+						$("#header").removeClass("active")
+
+					var old_start = 2073;
+					var new_start = 2120;
+					var old_end = 3090;
+					var new_end = 3135;
+					// Make header black on black section
+					if($(this).scrollTop() > old_start && $(this).scrollTop() < old_end)
+					$("#header").addClass("darkmode")
+					else
+					$("#header").removeClass("darkmode")
+
+				})
+
+				$("#b__1").mouseup(function(){
+					$(this).addClass('active');
+					$('#c__1').css({"transform":"translateX(0)"});
+					$('#c__2').css({"transform":"translateX(0)"});
+					$('#c__3').css({"transform":"translateX(0)"});
+					$('#c__4').css({"transform":"translateX(0)"});
+					$('#b__2').removeClass('active');
+					$('#b__3').removeClass('active');
+					$('#b__4').removeClass('active');
+					$([document.documentElement, document.body]).animate({
+							scrollTop: $(".more__container").offset().top
+					}, 250);
+				});
+				$("#b__2").mouseup(function(){
+					$(this).addClass('active');
+					$('#c__1').css({"transform":"translateX(-100%)"});
+					$('#c__2').css({"transform":"translateX(-100%)"});
+					$('#c__3').css({"transform":"translateX(-100%)"});
+					$('#c__4').css({"transform":"translateX(-100%)"});
+					$('#b__1').removeClass('active');
+					$('#b__3').removeClass('active');
+					$('#b__4').removeClass('active');
+					$([document.documentElement, document.body]).animate({
+							scrollTop: $(".more__container").offset().top
+					}, 250);
+				});
+				$("#b__3").mouseup(function(){
+					$(this).addClass('active');
+					$('#c__1').css({"transform":"translateX(-200%)"});
+					$('#c__2').css({"transform":"translateX(-200%)"});
+					$('#c__3').css({"transform":"translateX(-200%)"});
+					$('#c__4').css({"transform":"translateX(-200%)"});
+					$('#b__1').removeClass('active');
+					$('#b__2').removeClass('active');
+					$('#b__4').removeClass('active');
+					$([document.documentElement, document.body]).animate({
+							scrollTop: $(".more__container").offset().top
+					}, 250);
+				});
+				$("#b__4").mouseup(function(){
+					$(this).addClass('active');
+					$('#c__1').css({"transform":"translateX(-300%)"});
+					$('#c__2').css({"transform":"translateX(-300%)"});
+					$('#c__3').css({"transform":"translateX(-300%)"});
+					$('#c__4').css({"transform":"translateX(-300%)"});
+					$('#b__1').removeClass('active');
+					$('#b__2').removeClass('active');
+					$('#b__3').removeClass('active');
+					$([document.documentElement, document.body]).animate({
+							scrollTop: $(".more__container").offset().top
+					}, 250);
+				});
+				
+				// Open languages menu
+				$("#hl__container").mouseup(function(){
+					$('.hl__options').css({"opacity":"1"});
+					$('.hl__options').css({"top":"-20px"});
+					$('.hl__options').css({"visibility":"visible"});
+					$(this).addClass('hl__options__open');
+				});
+				$(".hl__option").mouseup(function(){
+					$('#hl__options').css({"opacity":"0"});
+					$('#hl__options').css({"top":"20px"});
+					$('#hl__options').css({"visibility":"hidden"});
+					
+				});
+			})
+
+			const signUpForm = document.getElementById('signup');
+			const emailField = document.getElementById('email-field');
+			const okButton = document.getElementById('button-addon2');
+				
+			emailField.addEventListener('keyup', function (event) {
+				isValidEmail = emailField.checkValidity();
+				
+				if ( !isValidEmail ) {
+					
+				} else {
+					
+				}
+			});
+
+			$('#contactSubmit').click(function () {
+				$('.contact_before').addClass('transformY_content');
+				$('.contact_success').addClass('transformY_content');
+				setTimeout(function() {
+					$('.contact_before').removeClass('transformY_content');
+					$('.contact_success').removeClass('transformY_content');
+				}, 5000);
+			});
+
+		</script>
+<script type=“text/javascript” async=“” src=“//api.aidax.com.br/aidax.js”> </script> <script>
+	!function(f,b,e,v,n,t,s)
+			{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+			n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+			if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+			n.queue=[];t=b.createElement(e);t.async=!0;
+			t.src=v;s=b.getElementsByTagName(e)[0];
+			s.parentNode.insertBefore(t,s)}(window, document,'script',
+			'https://connect.facebook.net/en_US/fbevents.js');
+			fbq('init', '1129572423875616');
+			fbq('track', 'PageView');
+		  </script>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1129572423875616&ev=PageView&noscript=1" /></noscript>
+
+</html>

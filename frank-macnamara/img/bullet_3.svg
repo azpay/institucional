@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="25px" viewBox="0 0 21 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Mask</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-1.11022302e-14%" y1="50%" x2="100%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#FF416C" offset="0%"></stop>
+            <stop stop-color="#FF4B2B" offset="100%"></stop>
+        </linearGradient>
+        <path d="M18.6417743,0 L6.8506457,0 C5.55362156,0 4.49241999,1.02272727 4.49241999,2.27272727 L4.49241999,5.68181818 L6.8506457,5.68181818 L6.8506457,3.40909091 L18.6417743,3.40909091 L18.6417743,21.5909091 L6.8506457,21.5909091 L6.8506457,19.3181818 L4.49241999,19.3181818 L4.49241999,22.7272727 C4.49241999,23.9772727 5.55362156,25 6.8506457,25 L18.6417743,25 C19.9387984,25 21,23.9772727 21,22.7272727 L21,2.27272727 C21,1.02272727 19.9387984,0 18.6417743,0 Z M4.50421112,14.1704545 L1.49747333,11.2727273 L0,12.7159091 L4.49241999,17.0454545 L12.9702414,8.875 L11.4727681,7.43181818 L4.50421112,14.1704545 Z" id="path-2"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="mobile" transform="translate(-12.000000, -12.000000)">
+            <g id="Color/Grayscale/10" transform="translate(12.000000, 12.000000)">
+                <mask id="mask-3" fill="white">
+                    <use xlink:href="#path-2"></use>
+                </mask>
+                <use id="Mask" fill="url(#linearGradient-1)" fill-rule="nonzero" xlink:href="#path-2"></use>
+            </g>
+        </g>
+    </g>
+</svg>
