@@ -1,6 +1,7 @@
 const en = {
   translation: {
     header: {
+      home: "Home",
       empresa: "Company",
       ecommerce: "E-commerce",
       precos: "Pricing",
@@ -20,7 +21,10 @@ const en = {
       recorrencias: "Recurring",
       todos: "All Products",
     },
-
+    error: {
+      title: 'Nothing found',
+      message: "We couldn't find the page"
+    },
     comunicado: {
       comunicadoImportante: "Important report:",
       comunicado:
