@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Mon Jul 06 2020 22:26:02 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Wed Jul 08 2020 15:40:42 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="5eb960f553c1e7d3f7cc24f1" data-wf-site="5ea199b4f3980b7c657a11da" lang="pt-br">
 <head>
   <meta charset="utf-8">
@@ -24,7 +24,9 @@
   <link href="../images/favicon.png" rel="shortcut icon" type="image/x-icon">
   <link href="../images/webclip.png" rel="apple-touch-icon">
   <style>
-  .w-container { max-width: 1280px !important; padding-left: 20px; padding-right: 20px; }
+  @media (min-width: 1220px) {
+      .w-container { max-width: 1280px !important; padding-left: 20px; padding-right: 20px; }
+  }
   .w-webflow-badge { display: none !important; }
   .w-container .w-row { margin-left: 0 !important; margin-right: 0 !important; }
   .w-container::before { content: auto; }
@@ -136,11 +138,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <div id="left-container" class="left-container left-container-mobile"><a href="#" class="logo-link w-inline-block"><img src="../images/logo_horizontal.svg" alt="" class="logo-svg"><img src="../images/logo_vertical.svg" alt="" class="logo-vertical"></a>
               <div class="menu-button menu-inside w-nav-button"><img src="../images/x.svg" alt=""></div>
               <div class="top-bar"></div>
-            </div><a href="../index.html" data-i18n="header.home" class="nav-link-mobile w-nav-link">Início</a><a href="../e-commece-azpay-smart-payment-solutions.html" data-i18n="header.solutions" class="nav-link-mobile w-nav-link">E-commerce</a><a href="../pricing.html" data-i18n="header.pricing" class="nav-link-mobile w-nav-link">Preços</a><a href="../produtos/produtos-azpay-smart-payment-solutions.html" data-i18n="header.devcenter" target="_blank" aria-current="page" class="nav-link-mobile w-nav-link w--current">Produtos</a><a href="../produtos/split-de-pagamentos-azpay-smart-payment-solutions.html" data-i18n="header.devcenter" target="_blank" class="nav-link-mobile w-nav-link">Split de Pagamentos</a><a href="../produtos/boletos-azpay-smart-payment-solutions.html" data-i18n="header.devcenter" target="_blank" class="nav-link-mobile w-nav-link">Boletos</a><a href="../produtos/maquininhas-azpay-smart-payment-solutions.html" data-i18n="header.devcenter" target="_blank" class="nav-link-mobile w-nav-link">Maquininhas</a><a href="https://azpay.com.br/blog/" data-i18n="header.blog" target="_blank" class="nav-link-mobile w-nav-link">Desenvolvedores</a><a href="../help.html" data-i18n="header.help" class="nav-link-mobile w-nav-link">Ajuda</a>
+            </div><a href="../index.html" data-i18n="header.home" class="nav-link-mobile w-nav-link">Início</a><a href="../produtos/produtos-azpay-smart-payment-solutions.html" data-i18n="header.produtos" target="_blank" aria-current="page" class="nav-link-mobile w-nav-link w--current">Produtos</a><a href="../e-commece-azpay-smart-payment-solutions.html" data-i18n="header.ecommerce" class="nav-link-mobile w-nav-link">E-commerce</a><a href="../pricing.html" data-i18n="header.precos" class="nav-link-mobile w-nav-link">Preços</a><a href="../produtos/split-de-pagamentos-azpay-smart-payment-solutions.html" data-i18n="header.splitPagamento" target="_blank" class="nav-link-mobile w-nav-link">Split de Pagamentos</a><a href="../produtos/boletos-azpay-smart-payment-solutions.html" data-i18n="header.boletos" target="_blank" class="nav-link-mobile w-nav-link">Boletos</a><a href="../produtos/maquininhas-azpay-smart-payment-solutions.html" data-i18n="header.maquininhas" target="_blank" class="nav-link-mobile w-nav-link">Maquininhas</a><a href="https://azpay.com.br/blog/" data-i18n="header.devs" target="_blank" class="nav-link-mobile w-nav-link">Desenvolvedores</a><a href="../help.html" data-i18n="header.ajuda" class="nav-link-mobile w-nav-link">Ajuda</a>
             <div class="sign-container sign-container-mobile"><a data-i18n="header.signin" href="#" class="sign-link">User Hub</a>
               <a href="#" class="primary-btn w-inline-block">
                 <div class="primary-btn-container">
-                  <div data-i18n="header.signup" class="primary-btn-text">CREATE YOUR ACCOUNT</div>
+                  <div data-i18n="header.criarConta" class="primary-btn-text">CRIAR CONTA</div>
                 </div>
               </a>
             </div>
@@ -229,51 +231,51 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </div>
     <div class="container-fluid container-produtos w-container">
       <div>
-        <h3 data-produto="pagamento-online" class="title-table title-table-mobile">Pagamento online</h3>
+        <h3 data-produto="pagamento-online" data-i18n="produtos.tabela.pagOnline" class="title-table title-table-mobile">Pagamento online</h3>
         <ul data-produto="pagamento-online" role="list" class="list-produtos w-list-unstyled">
-          <li class="item-cobertura"><a href="#tokenizacao" class="link-table">Tokenização</a></li>
-          <li class="item-cobertura"><a href="#boleto-registrado" class="link-table">Cobrança com Boleto</a></li>
-          <li class="item-cobertura"><a href="#recorrencia-assinaturas" class="link-table">Recorrência / Assinaturas</a></li>
-          <li class="item-cobertura"><a href="#split-pagamento" class="link-table">Split de pagamentos</a></li>
-          <li class="item-cobertura"><a href="#gateway-pagamento" class="link-table">Gateway de pagamento</a></li>
-          <li class="item-cobertura"><a href="#api-pagamentos" class="link-table">API de pagamento</a></li>
-          <li class="item-cobertura"><a href="#checkout-transparente" class="link-table">Checkout Transparente</a></li>
-          <li class="item-cobertura"><a href="#notificacao-webhook" class="link-table">Notificação de pagamento</a></li>
-          <li class="item-cobertura"><a href="#plataformas-ecommerce" class="link-table">Plataforma de e-commerce</a></li>
+          <li class="item-cobertura"><a href="#tokenizacao" data-i18n="produtos.tabela.token" class="link-table">Tokenização</a></li>
+          <li class="item-cobertura"><a href="#boleto-registrado" data-i18n="produtos.tabela.cobranca" class="link-table">Cobrança com Boleto</a></li>
+          <li class="item-cobertura"><a href="#recorrencia-assinaturas" data-i18n="produtos.tabela.recorrencia" class="link-table">Recorrência / Assinaturas</a></li>
+          <li class="item-cobertura"><a href="#split-pagamento" data-i18n="produtos.tabela.split" class="link-table">Split de pagamentos</a></li>
+          <li class="item-cobertura"><a href="#gateway-pagamento" data-i18n="produtos.tabela.gateway" class="link-table">Gateway de pagamento</a></li>
+          <li class="item-cobertura"><a href="#api-pagamentos" data-i18n="produtos.tabela.api" class="link-table">API de pagamento</a></li>
+          <li class="item-cobertura"><a href="#checkout-transparente" data-i18n="produtos.tabela.checkout" class="link-table">Checkout Transparente</a></li>
+          <li class="item-cobertura"><a href="#notificacao-webhook" data-i18n="produtos.tabela.notificacoes" class="link-table">Notificação de pagamento</a></li>
+          <li class="item-cobertura"><a href="#plataformas-ecommerce" data-i18n="produtos.tabela.plataforma" class="link-table">Plataforma de e-commerce</a></li>
         </ul>
       </div>
       <div>
-        <h3 data-produto="pagamento-presencial" class="title-table title-table-mobile">Pagamento presencial</h3>
+        <h3 data-produto="pagamento-presencial" data-i18n="produtos.tabela.pagPresen" class="title-table title-table-mobile">Pagamento presencial</h3>
         <ul data-produto="pagamento-presencial" role="list" class="list-produtos w-list-unstyled">
-          <li class="item-cobertura"><a href="#maquininhas-pos" class="link-table">Maquininhas / POS</a></li>
-          <li class="item-cobertura"><a href="#bobinas-suprimentos" class="link-table">Bobinas / Suprimentos</a></li>
-          <li class="item-cobertura"><a href="#sdks" class="link-table">SDKs iOS / Android</a></li>
-          <li class="item-cobertura"><a href="#personalizacao-whitelabel" class="link-table">Personalização / Whitelabel</a></li>
+          <li class="item-cobertura"><a href="#maquininhas-pos" data-i18n="produtos.tabela.maquininhas" class="link-table">Maquininhas / POS</a></li>
+          <li class="item-cobertura"><a href="#bobinas-suprimentos" data-i18n="produtos.tabela.bobinas" class="link-table">Bobinas / Suprimentos</a></li>
+          <li class="item-cobertura"><a href="#sdks" data-i18n="produtos.tabela.sdk" class="link-table">SDKs iOS / Android</a></li>
+          <li class="item-cobertura"><a href="#personalizacao-whitelabel" data-i18n="produtos.tabela.personalizacao" class="link-table">Personalização / Whitelabel</a></li>
         </ul>
       </div>
       <div>
-        <h3 data-produto="financeiro" class="title-table title-table-mobile">Financeiro</h3>
+        <h3 data-produto="financeiro" data-i18n="produtos.tabela.financeiro" class="title-table title-table-mobile">Financeiro</h3>
         <ul data-produto="financeiro" role="list" class="list-produtos w-list-unstyled">
-          <li class="item-cobertura"><a href="#bandeiras" class="link-table">Aceitamos as principais bandeiras</a></li>
-          <li class="item-cobertura"><a href="#conta-digital" class="link-table">Conta digital integrada</a></li>
-          <li class="item-cobertura"><a href="#antecipacao-recebiveis" class="link-table">Antecipação de recebíveis</a></li>
-          <li class="item-cobertura"><a href="#transferencia-entre-contas" class="link-table">Transferência entre contas AZPAY</a></li>
-          <li class="item-cobertura"><a href="#cashin-cashout" class="link-table">Cash in / Cash out</a></li>
-          <li class="item-cobertura"><a href="#disputas-chargebacks" class="link-table">Gestão de disputas e chargebacks</a></li>
-          <li class="item-cobertura"><a href="#painel-centralizado" class="link-table">Painel centralizado</a></li>
-          <li class="item-cobertura"><a href="#conciliacao-financeira" class="link-table">Conciliação financeira</a></li>
-          <li class="item-cobertura"><a href="#cartao-prepago" class="link-table">Cartão Pré-Pago</a></li>
+          <li class="item-cobertura"><a href="#bandeiras" data-i18n="produtos.tabela.bandeiras" class="link-table">Aceitamos as principais bandeiras</a></li>
+          <li class="item-cobertura"><a href="#conta-digital" data-i18n="produtos.tabela.conta" class="link-table">Conta digital integrada</a></li>
+          <li class="item-cobertura"><a href="#antecipacao-recebiveis" data-i18n="produtos.tabela.antecipacao" class="link-table">Antecipação de recebíveis</a></li>
+          <li class="item-cobertura"><a href="#transferencia-entre-contas" data-i18n="produtos.tabela.transferencia" class="link-table">Transferência entre contas AZPAY</a></li>
+          <li class="item-cobertura"><a href="#cashin-cashout" data-i18n="produtos.tabela.cash" class="link-table">Cash in / Cash out</a></li>
+          <li class="item-cobertura"><a href="#disputas-chargebacks" data-i18n="produtos.tabela.disputas" class="link-table">Gestão de disputas e chargebacks</a></li>
+          <li class="item-cobertura"><a href="#painel-centralizado" data-i18n="produtos.tabela.painel" class="link-table">Painel centralizado</a></li>
+          <li class="item-cobertura"><a href="#conciliacao-financeira" data-i18n="produtos.tabela.conciliacao" class="link-table">Conciliação financeira</a></li>
+          <li class="item-cobertura"><a href="#cartao-prepago" data-i18n="produtos.tabela.cartao" class="link-table">Cartão Pré-Pago</a></li>
         </ul>
       </div>
       <div>
-        <h3 data-produto="gestao" class="title-table title-table-mobile">Gestão</h3>
+        <h3 data-produto="gestao" data-i18n="produtos.tabela.gestao" class="title-table title-table-mobile">Gestão</h3>
         <ul data-produto="gestao" role="list" class="list-produtos w-list-unstyled">
-          <li class="item-cobertura"><a href="#relatorios-completos" class="link-table">Relatórios completos</a></li>
-          <li class="item-cobertura"><a href="#cobranca-manual" class="link-table">Cobrança manual</a></li>
-          <li class="item-cobertura"><a href="#multi-contas" class="link-table">Multi-contas</a></li>
-          <li class="item-cobertura"><a href="#analise-risco" class="link-table">Análise de riscos e fraude</a></li>
-          <li class="item-cobertura"><a href="#politicas-recebimento" class="link-table">Políticas de recebimento</a></li>
-          <li class="item-cobertura"><a href="#documentacao-tecnica" class="link-table">Documentação técnica</a></li>
+          <li class="item-cobertura"><a href="#relatorios-completos" data-i18n="produtos.tabela.relatorios" class="link-table">Relatórios completos</a></li>
+          <li class="item-cobertura"><a href="#cobranca-manual" data-i18n="produtos.tabela.cobranca" class="link-table">Cobrança manual</a></li>
+          <li class="item-cobertura"><a href="#multi-contas" data-i18n="produtos.tabela.multi" class="link-table">Multi-contas</a></li>
+          <li class="item-cobertura"><a href="#analise-risco" data-i18n="produtos.tabela.analise" class="link-table">Análise de riscos e fraude</a></li>
+          <li class="item-cobertura"><a href="#politicas-recebimento" data-i18n="produtos.tabela.politicas" class="link-table">Políticas de recebimento</a></li>
+          <li class="item-cobertura"><a href="#documentacao-tecnica" data-i18n="produtos.tabela.documentacao" class="link-table">Documentação técnica</a></li>
         </ul>
       </div>
     </div>
