@@ -12,7 +12,10 @@ const en = {
       inicarSessao: "Login",
       criarConta: "CREATE ACCOUNT",
     },
-
+    error: {
+      title: 'Nothing found',
+      message: "We couldn't find the page"
+    },
     comunicado: {
       comunicadoImportante: "Important report:",
       comunicado:
