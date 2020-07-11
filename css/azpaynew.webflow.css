@@ -1111,6 +1111,7 @@ h4 {
 
 .error-message {
   margin-top: 20px;
+  text-align: center;
 }
 
 .body-2 {
@@ -1126,6 +1127,10 @@ h4 {
   z-index: -1;
   width: 100vw;
   height: 100vh;
+}
+
+.error-title {
+  text-align: center;
 }
 
 .pseudo-nav {
@@ -5525,50 +5530,6 @@ h4 {
   grid-row-end: 2;
 }
 
-#w-node-165cdeeb873a-937a11e5 {
-  -ms-grid-column: 1;
-  grid-column-start: 1;
-  -ms-grid-column-span: 1;
-  grid-column-end: 2;
-  -ms-grid-row: 1;
-  grid-row-start: 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: 2;
-}
-
-#w-node-8d36427fdcde-937a11e5 {
-  -ms-grid-column: 2;
-  grid-column-start: 2;
-  -ms-grid-column-span: 1;
-  grid-column-end: 3;
-  -ms-grid-row: 1;
-  grid-row-start: 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: 2;
-}
-
-#w-node-6534d50f8709-937a11e5 {
-  -ms-grid-column: 2;
-  grid-column-start: 2;
-  -ms-grid-row: 1;
-  grid-row-start: 1;
-  -ms-grid-column-span: 1;
-  grid-column-end: 3;
-  -ms-grid-row-span: 1;
-  grid-row-end: 2;
-}
-
-#w-node-af8e280f9f71-937a11e5 {
-  -ms-grid-column: 1;
-  grid-column-start: 1;
-  -ms-grid-row: 1;
-  grid-row-start: 1;
-  -ms-grid-column-span: 1;
-  grid-column-end: 2;
-  -ms-grid-row-span: 1;
-  grid-row-end: 2;
-}
-
 #w-node-165cdeeb873a-b07a11e6 {
   -ms-grid-column: 1;
   grid-column-start: 1;
@@ -5609,28 +5570,6 @@ h4 {
   grid-row-start: 1;
   -ms-grid-column-span: 1;
   grid-column-end: 2;
-  -ms-grid-row-span: 1;
-  grid-row-end: 2;
-}
-
-#w-node-539e38c135df-2e7a11e7 {
-  -ms-grid-column: 1;
-  grid-column-start: 1;
-  -ms-grid-column-span: 1;
-  grid-column-end: 2;
-  -ms-grid-row: 1;
-  grid-row-start: 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: 2;
-}
-
-#w-node-539e38c135e1-2e7a11e7 {
-  -ms-grid-column: 2;
-  grid-column-start: 2;
-  -ms-grid-column-span: 1;
-  grid-column-end: 3;
-  -ms-grid-row: 1;
-  grid-row-start: 1;
   -ms-grid-row-span: 1;
   grid-row-end: 2;
 }
@@ -5802,26 +5741,6 @@ h4 {
     grid-column-end: 2;
     -ms-grid-row-span: 1;
     grid-row-end: 5;
-  }
-  #w-node-6534d50f8709-937a11e5 {
-    -ms-grid-column: 1;
-    grid-column-start: 1;
-    -ms-grid-column-span: 1;
-    grid-column-end: 2;
-    -ms-grid-row: 2;
-    grid-row-start: 2;
-    -ms-grid-row-span: 1;
-    grid-row-end: 3;
-  }
-  #w-node-af8e280f9f71-937a11e5 {
-    -ms-grid-column: 1;
-    grid-column-start: 1;
-    -ms-grid-row: 1;
-    grid-row-start: 1;
-    -ms-grid-column-span: 1;
-    grid-column-end: 2;
-    -ms-grid-row-span: 1;
-    grid-row-end: 2;
   }
   #w-node-481a40c91937-b07a11e6 {
     -ms-grid-column: 1;

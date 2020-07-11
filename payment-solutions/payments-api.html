@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Mon Jul 06 2020 22:26:02 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Sat Jul 11 2020 12:43:01 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="5ea199b4f3980bbcb07a11e6" data-wf-site="5ea199b4f3980b7c657a11da" lang="pt-br">
 <head>
   <meta charset="utf-8">
   <title>Payments API - AZPay Smart Payment Solutions</title>
+  <meta content="Receba os seus pagamentos de modo fácil e totalmente seguro. Venda na internet do jeito que você quer. Temos diversos modelos e preços que cabem no seu bolso. Ofereça pagamentos com todas as bandeiras e receba em até um dia útil de forma simples e rápida mesmo você sendo desbancarizado ou com restrições." name="description">
   <meta content="Payments API - AZPay Smart Payment Solutions" property="og:title">
+  <meta content="Receba os seus pagamentos de modo fácil e totalmente seguro. Venda na internet do jeito que você quer. Temos diversos modelos e preços que cabem no seu bolso. Ofereça pagamentos com todas as bandeiras e receba em até um dia útil de forma simples e rápida mesmo você sendo desbancarizado ou com restrições." property="og:description">
   <meta content="Payments API - AZPay Smart Payment Solutions" property="twitter:title">
+  <meta content="Receba os seus pagamentos de modo fácil e totalmente seguro. Venda na internet do jeito que você quer. Temos diversos modelos e preços que cabem no seu bolso. Ofereça pagamentos com todas as bandeiras e receba em até um dia útil de forma simples e rápida mesmo você sendo desbancarizado ou com restrições." property="twitter:description">
+  <meta property="og:type" content="website">
+  <meta content="summary_large_image" name="twitter:card">
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <meta content="Webflow" name="generator">
   <link href="../css/normalize.css" rel="stylesheet" type="text/css">
@@ -17,7 +22,9 @@
   <link href="../images/favicon.png" rel="shortcut icon" type="image/x-icon">
   <link href="../images/webclip.png" rel="apple-touch-icon">
   <style>
-  .w-container { max-width: 1280px !important; padding-left: 20px; padding-right: 20px; }
+  @media (min-width: 1220px) {
+      .w-container { max-width: 1280px !important; padding-left: 20px; padding-right: 20px; }
+  }
   .w-webflow-badge { display: none !important; }
   .w-container .w-row { margin-left: 0 !important; margin-right: 0 !important; }
   .w-container::before { content: auto; }
@@ -93,11 +100,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <div id="left-container" class="left-container left-container-mobile"><a href="#" class="logo-link w-inline-block"><img src="../images/logo_horizontal.svg" alt="" class="logo-svg"><img src="../images/logo_vertical.svg" alt="" class="logo-vertical"></a>
               <div class="menu-button menu-inside w-nav-button"><img src="../images/x.svg" alt=""></div>
               <div class="top-bar"></div>
-            </div><a href="../index.html" data-i18n="header.home" class="nav-link-mobile w-nav-link">Início</a><a href="../e-commece-azpay-smart-payment-solutions.html" data-i18n="header.solutions" class="nav-link-mobile w-nav-link">E-commerce</a><a href="../pricing.html" data-i18n="header.pricing" class="nav-link-mobile w-nav-link">Preços</a><a href="../produtos/produtos-azpay-smart-payment-solutions.html" data-i18n="header.devcenter" target="_blank" class="nav-link-mobile w-nav-link">Produtos</a><a href="../produtos/split-de-pagamentos-azpay-smart-payment-solutions.html" data-i18n="header.devcenter" target="_blank" class="nav-link-mobile w-nav-link">Split de Pagamentos</a><a href="../produtos/boletos-azpay-smart-payment-solutions.html" data-i18n="header.devcenter" target="_blank" class="nav-link-mobile w-nav-link">Boletos</a><a href="../produtos/maquininhas-azpay-smart-payment-solutions.html" data-i18n="header.devcenter" target="_blank" class="nav-link-mobile w-nav-link">Maquininhas</a><a href="https://azpay.com.br/blog/" data-i18n="header.blog" target="_blank" class="nav-link-mobile w-nav-link">Desenvolvedores</a><a href="../help.html" data-i18n="header.help" class="nav-link-mobile w-nav-link">Ajuda</a>
+            </div><a href="../index.html" data-i18n="header.home" class="nav-link-mobile w-nav-link">Início</a><a href="../produtos/produtos-azpay-smart-payment-solutions.html" data-i18n="header.produtos" target="_blank" class="nav-link-mobile w-nav-link">Produtos</a><a href="../e-commece-azpay-smart-payment-solutions.html" data-i18n="header.ecommerce" class="nav-link-mobile w-nav-link">E-commerce</a><a href="../pricing.html" data-i18n="header.precos" class="nav-link-mobile w-nav-link">Preços</a><a href="../produtos/split-de-pagamentos-azpay-smart-payment-solutions.html" data-i18n="header.splitPagamento" target="_blank" class="nav-link-mobile w-nav-link">Split de Pagamentos</a><a href="../produtos/boletos-azpay-smart-payment-solutions.html" data-i18n="header.boletos" target="_blank" class="nav-link-mobile w-nav-link">Boletos</a><a href="../produtos/maquininhas-azpay-smart-payment-solutions.html" data-i18n="header.maquininhas" target="_blank" class="nav-link-mobile w-nav-link">Maquininhas</a><a href="https://azpay.com.br/blog/" data-i18n="header.devs" target="_blank" class="nav-link-mobile w-nav-link">Desenvolvedores</a><a href="../help.html" data-i18n="header.ajuda" class="nav-link-mobile w-nav-link">Ajuda</a>
             <div class="sign-container sign-container-mobile"><a data-i18n="header.signin" href="#" class="sign-link">User Hub</a>
               <a href="#" class="primary-btn w-inline-block">
                 <div class="primary-btn-container">
-                  <div data-i18n="header.signup" class="primary-btn-text">CREATE YOUR ACCOUNT</div>
+                  <div data-i18n="header.criarConta" class="primary-btn-text">CRIAR CONTA</div>
                 </div>
               </a>
             </div>
@@ -126,7 +133,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <a href="../payment-solutions/checkout.html" class="ps-select-dropdown-text w-inline-block">
               <h3 data-i18n="header.checkout">Checkout</h3>
             </a>
-            <a href="../payment-solutions/extensions.html" class="ps-select-dropdown-text w-inline-block">
+            <a href="#" class="ps-select-dropdown-text w-inline-block">
               <h3 data-i18n="header.extensions">Extensions</h3>
             </a>
           </div>
@@ -186,7 +193,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <div id="w-node-6a7cdc1c8516-b07a11e6">
         <h2 data-i18n="paymentsapi.extensions.title" class="ps-container-title">Countless possibilities</h2>
         <h4 data-i18n="paymentsapi.extensions.subtitle" class="ps-container-subtitle">Use the best technologies to create what is best for your nusiness. We offer extensions for recurring payments, card tokenization, reports, sandbox environments and criptocurrency support.</h4>
-        <a href="../payment-solutions/extensions.html" class="primary-btn primaty-transparent btn-margin-top w-inline-block">
+        <a href="#" class="primary-btn primaty-transparent btn-margin-top w-inline-block">
           <div class="primary-btn-container">
             <div data-i18n="paymentsapi.extensions.learnmore" class="primary-btn-text">GET TO KNOW MORE ABOUT EXTENSIONS</div><img src="../images/arrow-down.svg" width="24" alt="" class="primary-btn-img"></div>
         </a>
@@ -213,7 +220,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <div data-i18n="footer.contact.subtitle">+55 11 99268 - 6502</div>
       </div>
       <div id="w-node-d09cad8af46e-ad8af456" class="footer-links">
-        <div data-i18n="footer.paymentsolutions" class="footer-links-title">Payment Solutions</div><a data-i18n="header.checkout" href="../payment-solutions/checkout.html" class="footer-links-link">Checkout</a><a data-i18n="header.paymentsapi" href="../payment-solutions/payments-api.html" aria-current="page" class="footer-links-link w--current">Payments API</a><a data-i18n="header.extensions" href="../payment-solutions/extensions.html" class="footer-links-link">Extensions</a><a data-i18n="header.pricing" href="../pricing.html" class="footer-links-link">Pricing</a></div>
+        <div data-i18n="footer.paymentsolutions" class="footer-links-title">Payment Solutions</div><a data-i18n="header.checkout" href="../payment-solutions/checkout.html" class="footer-links-link">Checkout</a><a data-i18n="header.paymentsapi" href="../payment-solutions/payments-api.html" aria-current="page" class="footer-links-link w--current">Payments API</a><a data-i18n="header.extensions" href="#" class="footer-links-link">Extensions</a><a data-i18n="header.pricing" href="../pricing.html" class="footer-links-link">Pricing</a></div>
       <div id="w-node-d09cad8af479-ad8af456" class="footer-links">
         <div data-i18n="footer.kb" class="footer-links-title">Knowledge Base</div><a data-i18n="footer.blog" href="https://azpay.com.br/blog/" target="_blank" class="footer-links-link">Blog</a><a data-i18n="header.devcenter" href="https://doc.azpay.com.br/" target="_blank" class="footer-links-link">Dev Center</a><a data-i18n="footer.faq" href="http://help.azpay.com.br/support/solutions/5000170907" target="_blank" class="footer-links-link">FAQ</a><a data-i18n="footer.helpdesk" href="http://help.azpay.com.br/support/home" target="_blank" class="footer-links-link">Helpdesk</a><a href="https://status.azpay.com.br/?utm_source=azpay" target="_blank" class="footer-links-link">Status</a></div>
     </div>
