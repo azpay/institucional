@@ -15,7 +15,7 @@
                             <use xlink:href="#path-1"></use>
                         </mask>
                         <use id="Mask" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
-                        <g id="color-/-white" mask="url(#mask-2)" fill="#FFFFFF" fill-rule="evenodd">
+                        <g id="color-/-AZPay-/-red" mask="url(#mask-2)" fill="#FF173D" fill-rule="evenodd">
                             <rect id="Shape" x="0" y="0" width="24" height="24"></rect>
                         </g>
                     </g>
