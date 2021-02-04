@@ -4526,6 +4526,11 @@ h4 {
   text-transform: capitalize;
 }
 
+.image-17 {
+  overflow: visible;
+  opacity: 1;
+}
+
 @media screen and (max-width: 991px) {
   .header-container-desktop {
     position: relative;
