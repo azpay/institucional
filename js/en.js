@@ -184,9 +184,15 @@ const en = {
           rodape: "Calculation based on number of monthly transactions",
         },
         boleto: {
-          title: "BANKING BOLETO",
+          title: "Bank Slip",
           aPartir: "From:",
           por: "BY COMPENSATED BOLETO",
+          rodape: "Calculation based on number of monthly transactions",
+        },
+        pix: {
+          title: "PIX",
+          aPartir: "immediate payment:",
+          por: "bank account deposit",
           rodape: "Calculation based on number of monthly transactions",
         },
       },
@@ -332,7 +338,7 @@ const en = {
         maquininhasText:
           "Increase your revenue by expanding the limits of software licensing and subscription models. Our technologies are available for you to integrate and start trading. Integrate into your system through APIs the flow of capture and settlement of receivables in your customers' accounts.",
         maquininhasButton: "Know more",
-         integracoes: "Integrations",
+        integracoes: "Integrations",
         integracoesText: "We have integration plugins to make integration with our platform even easier. With a few clicks, you can integrate AZPAY into your e-commerce and start selling safely.",
         integracoesButton: "More",
         bobinas: "Bobinas / Suprimentos",
